@@ -1,0 +1,3 @@
+/mnt/c/Users/LENOVO/Desktop/CMake/build/CMakeFiles/NewCMakeProject.dir
+/mnt/c/Users/LENOVO/Desktop/CMake/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/LENOVO/Desktop/CMake/build/CMakeFiles/rebuild_cache.dir
