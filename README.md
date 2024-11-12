@@ -7,7 +7,7 @@ Welcome to the **CMake Tutorial** repository! This tutorial is designed to help 
 - [Makefile Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/01-intro)
 - [CMake Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/02-cmake)
 - [Static Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/03-libs)
-
+- [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
 
 ## Introduction
 
