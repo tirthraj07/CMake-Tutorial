@@ -1,41 +1,13 @@
-# CMake Tutorial
-
-Welcome to the **CMake Tutorial** repository! This tutorial is designed to help you get started with CMake, a powerful build system generator that allows you to manage the build process in a platform-independent way. Whether you're a beginner or looking to deepen your knowledge, this guide will cover essential concepts, practical examples, and tips for effectively using CMake in your C++ projects.
-
-## Table of Contents
-
-- [Introduction]()
-
-
-
-## Introduction
-
-CMake is a cross-platform, open-source tool that simplifies the build process for your project. By writing a simple configuration file (`CMakeLists.txt`), you can build and test code across multiple platforms and compilers.
-
-## Getting Started
-
-To use CMake, ensure it's installed on your system:
-
-
-__On Linux__
-```bash
-sudo apt install cmake
-```
-
-__On MacOS__
-```bash
-brew install cmake
-```
-
-__On Windows__
-Download the installer from https://cmake.org/download/
-
-You can verify the installation by checking the version:
+## What is Makefile
+The makefile is a text file that contains the recipe for building your program.
+The most common use of Makefiles is to manage the dependencies of the source files of the programs during the compilation and linking (build) phase, that is, to compile only the files that need to be compiled by looking at the dependencies on each other and the last modified dates of the source files while the programs are being compiled.
 
 ```bash
-cmake --version
+make
+./out
 ```
 
-
-
-
+Output
+```bash
+Hello from CMake!
+```
