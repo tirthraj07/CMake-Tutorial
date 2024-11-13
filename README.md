@@ -8,6 +8,7 @@ Welcome to the **CMake Tutorial** repository! This tutorial is designed to help 
 - [CMake Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/02-cmake)
 - [Static Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/03-libs)
 - [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
+- [Example with cpprestsdk](https://github.com/tirthraj07/CMake-Tutorial/tree/05-example)
 
 ## Introduction
 
