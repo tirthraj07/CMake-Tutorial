@@ -9,6 +9,7 @@ Welcome to the **CMake Tutorial** repository! This tutorial is designed to help 
 - [Static Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/03-libs)
 - [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
 - [Example with cpprestsdk](https://github.com/tirthraj07/CMake-Tutorial/tree/05-example)
+- [Example with OpenGL and glut](https://github.com/tirthraj07/CMake-Tutorial/tree/06-example)
 
 ## Introduction
 
