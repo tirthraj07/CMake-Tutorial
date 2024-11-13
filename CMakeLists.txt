@@ -6,19 +6,12 @@ project(ExternalLibraries VERSION 1.0
 
 add_executable(${PROJECT_NAME} main.cpp)
 
+# Add glfw as a subdirectory
 add_subdirectory(external/glfw)
-
-target_include_directories(${PROJECT_NAME} 
-                           PUBLIC external/glfw/include/
-)
-
-target_link_directories(${PROJECT_NAME} 
-                        PRIVATE external/glfw/src/
-)
 
 # Link against both glfw and OpenGL
 find_package(OpenGL REQUIRED)
 target_link_libraries(${PROJECT_NAME} 
-                      glfw
-                      OpenGL::GL
+                      PRIVATE glfw
+                      PRIVATE OpenGL::GL
 )
