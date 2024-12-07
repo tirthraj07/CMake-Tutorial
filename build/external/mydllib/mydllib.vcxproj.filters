@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\LENOVO\Desktop\CPP\Static vs Dynamic Libraries\external\mydllib\lib\dllib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\LENOVO\Desktop\CPP\Static vs Dynamic Libraries\external\mydllib\includes\dllib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LENOVO\Desktop\CPP\Static vs Dynamic Libraries\external\mydllib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E5520A57-05BE-3734-AC23-A30EAAF56833}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{78E5DF29-8193-36FA-8E0B-AD949AA2809B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

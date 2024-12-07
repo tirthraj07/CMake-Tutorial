@@ -1,44 +1,20 @@
-# CMake Tutorial
+## Static vs Dynamic Libraries
 
-Welcome to the **CMake Tutorial** repository! This tutorial is designed to help you get started with CMake, a powerful build system generator that allows you to manage the build process in a platform-independent way. Whether you're a beginner or looking to deepen your knowledge, this guide will cover essential concepts, practical examples, and tips for effectively using CMake in your C++ projects.
+`Static link libraries` are libraries that are compiled with your main program.
+They are included in you executable file (.exe for windows). 
 
-## Table of Contents
+They are standard way of creating libaries.
+You should create static libraries when making a utility for standalone applications
 
-- [Makefile Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/01-intro)
-- [CMake Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/02-cmake)
-- [Static Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/03-libs)
-- [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
-- [Example with cpprestsdk](https://github.com/tirthraj07/CMake-Tutorial/tree/05-example)
-- [Example with OpenGL and glut](https://github.com/tirthraj07/CMake-Tutorial/tree/06-example)
-
-## Introduction
-
-CMake is a cross-platform, open-source tool that simplifies the build process for your project. By writing a simple configuration file (`CMakeLists.txt`), you can build and test code across multiple platforms and compilers.
-
-## Getting Started
-
-To use CMake, ensure it's installed on your system:
+`Dynamic Link Libraries` are libraries which are make for general-purpose programs.
+They are not compiled with your main program and thus not inside your executable.
+These types of libraries are good when you have multiple programs dependent on your library
 
 
-__On Linux__
-```bash
-sudo apt install cmake
-```
+Note:
+> When creating dynamic libraries, you need to make sure that the files are __searchable__ by your OS.
 
-__On MacOS__
-```bash
-brew install cmake
-```
+That is, you need to ensure that the library is present at the same level as your executable or in your `PATH` variables
 
-__On Windows__
-Download the installer from https://cmake.org/download/
-
-You can verify the installation by checking the version:
-
-```bash
-cmake --version
-```
-
-
-
+You can watch the video i make [HERE](https://youtu.be/cz8e7KwhMbg?si=tW2IcNnvNIv24Chg)
 

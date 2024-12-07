@@ -1,0 +1,7 @@
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/CMakeFiles/LibrariesExample.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/external/mystaticlib/CMakeFiles/mystaticlib.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/external/mystaticlib/CMakeFiles/ALL_BUILD.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/external/mydllib/CMakeFiles/mydllib.dir
+C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/external/mydllib/CMakeFiles/ALL_BUILD.dir

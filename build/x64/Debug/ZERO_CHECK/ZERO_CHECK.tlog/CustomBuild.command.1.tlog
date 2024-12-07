@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\CPP\STATIC VS DYNAMIC LIBRARIES\BUILD\CMAKEFILES\050BD96F71A7121734EB171D65C54933\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries" "-BC:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/LENOVO/Desktop/CPP/Static vs Dynamic Libraries/build/LibrariesExample.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

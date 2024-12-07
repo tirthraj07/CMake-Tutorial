@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\LENOVO\Desktop\CPP\Static vs Dynamic Libraries\build\CMakeFiles\050bd96f71a7121734eb171d65c54933\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{00C30DD6-D9A3-35EA-BCB7-516C6F51B95A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
