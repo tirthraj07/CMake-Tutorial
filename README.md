@@ -1,44 +1,24 @@
-# CMake Tutorial
+# C++ Shared Libraries with Python using CTypes
 
-Welcome to the **CMake Tutorial** repository! This tutorial is designed to help you get started with CMake, a powerful build system generator that allows you to manage the build process in a platform-independent way. Whether you're a beginner or looking to deepen your knowledge, this guide will cover essential concepts, practical examples, and tips for effectively using CMake in your C++ projects.
-
-## Table of Contents
-
-- [Makefile Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/01-intro)
-- [CMake Introduction](https://github.com/tirthraj07/CMake-Tutorial/tree/02-cmake)
-- [Static Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/03-libs)
-- [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
-- [Example with cpprestsdk](https://github.com/tirthraj07/CMake-Tutorial/tree/05-example)
-- [Example with OpenGL and glut](https://github.com/tirthraj07/CMake-Tutorial/tree/06-example)
-
-## Introduction
-
-CMake is a cross-platform, open-source tool that simplifies the build process for your project. By writing a simple configuration file (`CMakeLists.txt`), you can build and test code across multiple platforms and compilers.
-
-## Getting Started
-
-To use CMake, ensure it's installed on your system:
+`ctypes` is a foreign function library for Python. It provides C compatible data types, and allows calling functions in DLLs or shared libraries. It can be used to wrap these libraries in pure Python.
 
 
-__On Linux__
+
+## Build Instructions
+
+Step 1: Compile Shared C++ Library
 ```bash
-sudo apt install cmake
+cd mylib
+mkdir build
+cd build
+cmake ..
+make
 ```
 
-__On MacOS__
-```bash
-brew install cmake
-```
+Step 2: Copy the Shared Library (.dll for Windows) to `bin` folder in root
 
-__On Windows__
-Download the installer from https://cmake.org/download/
-
-You can verify the installation by checking the version:
+Step 3: Run Python Script
 
 ```bash
-cmake --version
+python main.py
 ```
-
-
-
-
