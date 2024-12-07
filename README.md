@@ -10,6 +10,9 @@ Welcome to the **CMake Tutorial** repository! This tutorial is designed to help 
 - [External Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/04-external)
 - [Example with cpprestsdk](https://github.com/tirthraj07/CMake-Tutorial/tree/05-example)
 - [Example with OpenGL and glut](https://github.com/tirthraj07/CMake-Tutorial/tree/06-example)
+- [Static vs Dynamic Link Libraries](https://github.com/tirthraj07/CMake-Tutorial/tree/07-static-vs-dynamic)
+- [C++ Dyanmic Libraries with Python using CTypes](https://github.com/tirthraj07/CMake-Tutorial/tree/08-shared-libs-with-python)
+
 
 ## Introduction
 
