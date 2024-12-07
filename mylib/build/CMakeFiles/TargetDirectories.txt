@@ -1,0 +1,3 @@
+C:/Users/LENOVO/Desktop/CMake/mylib/build/CMakeFiles/mylib.dir
+C:/Users/LENOVO/Desktop/CMake/mylib/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/LENOVO/Desktop/CMake/mylib/build/CMakeFiles/ZERO_CHECK.dir

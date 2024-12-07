@@ -1,0 +1,10 @@
+^C:\USERS\LENOVO\DESKTOP\CMAKE\MYLIB\BUILD\CMAKEFILES\43D0AAE2C31726C4A299651F0C20E5B9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/LENOVO/Desktop/CMake/mylib -BC:/Users/LENOVO/Desktop/CMake/mylib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/LENOVO/Desktop/CMake/mylib/build/SharedLibsPy.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
