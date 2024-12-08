@@ -10,8 +10,8 @@
 
 extern "C"
 {
-    EXPORT void print_hello_world();
-    EXPORT bool is_even(int num);
+	EXPORT void hello_world();
+	EXPORT void print_nums(int num);
 }
 
 #endif
